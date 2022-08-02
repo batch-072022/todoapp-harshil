@@ -12,6 +12,7 @@ import { UpdatetaskComponent } from './updatetask/updatetask.component';
 import { DeletetaskComponent } from './deletetask/deletetask.component';
 import { ListtaskComponent } from './listtask/listtask.component';
 import { HeaderComponent } from './header/header.component';
+import { ViewUserComponent } from './view-user/view-user.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HeaderComponent } from './header/header.component';
     UpdatetaskComponent,
     DeletetaskComponent,
     ListtaskComponent,
-    HeaderComponent
+    HeaderComponent,
+    ViewUserComponent
   ],
   imports: [
     BrowserModule,
